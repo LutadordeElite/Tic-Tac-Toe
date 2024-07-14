@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+#tic-tac-div {
+    display: inline-block;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+}
+
+td {
+    border: 2px solid #333;
+    width: 33.33%;
+    height: 33.33%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f0f0f0;
+}
